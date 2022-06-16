@@ -7,4 +7,4 @@
 4. Cambiar contraseña: passwd usuario
 5. Añadir linea a archivo por comando:  echo nueva linea >> archivo.txt
 6. Asignar permisos: chmod +r nombre_archivo
-7. Buscar archivos o carpetas:  find . -name '*.mp3' / find . -name '*doc*' -type d  /  find . -name '*doc*' -type f  /  find . -size +2M       
+7. Buscar archivos o carpetas:  find . -name '*.mp3' / find . -name '*doc*' -type d  /  find . -name '*doc*' -type f  /  find . -size +2M  /   find -user javier      

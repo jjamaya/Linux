@@ -9,3 +9,4 @@
 6. Asignar permisos: chmod +r nombre_archivo
 7. Buscar archivos o carpetas:  find . -name '*.mp3' / find . -name '*doc*' -type d  /  find . -name '*doc*' -type f  /  find . -size +2M  /   find -user javier      
 8. curl a url: curl --location --request GET 'http://172.17.200.68:9005/'    curl --location --request GET 'localhost:8080/'
+9. Saber las conexiones de red:  nmcli con

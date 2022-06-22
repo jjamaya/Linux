@@ -10,3 +10,10 @@
 7. Buscar archivos o carpetas:  find . -name '*.mp3' / find . -name '*doc*' -type d  /  find . -name '*doc*' -type f  /  find . -size +2M  /   find -user javier      
 8. curl a url: curl --location --request GET 'http://172.17.200.68:9005/'    curl --location --request GET 'localhost:8080/'
 9. Saber las conexiones de red:  nmcli con
+
+# Administración de software
+
+1. Actualizar pauqetes:   apt-get update
+2.Instalar aplicacion:  apt-get install vlc
+3. Terminar de desinstalar rastros de softwaee:  apt-get purge vlc
+

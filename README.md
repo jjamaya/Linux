@@ -17,3 +17,7 @@
 2.Instalar aplicacion:  apt-get install vlc
 3. Terminar de desinstalar rastros de softwaee:  apt-get purge vlc
 
+# Redes
+
+1. Conocer las redes de la maquina: nmcli con
+2. Conocer la ip: /etc/hosts

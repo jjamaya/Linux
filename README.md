@@ -28,9 +28,10 @@ CURL: Verifica conectividad.
 
 curl --location --request GET https://www.redbus.co/  
 
-curl --location --request POS T 'https://payments.bolivariano.com.co/EBOL_PROD/addi/check' \
+curl --location --request POST 'https://payments.bolivariano.com.co/EBOL_PROD/addi/check' \
 --header 'Content-Type: application/json' \
---data-raw '{"amount":77000}'  
+--data-raw '{"amount":77000}'   
+
 
 ### Wget
 

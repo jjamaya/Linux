@@ -22,11 +22,15 @@
 1. Conocer las redes de la maquina: nmcli con
 2. Conocer la ip: /etc/hosts
 
-### curl y wget
+### curl
 
 CURL: Verifica conectividad.
 
 curl --location --request GET https://www.redbus.co/
+curl --location --request POST https://payments.bolivariano.com.co/EBOL_PROD/addi/check
+
+
+### Wget
 
 WGET: Descarga rapida de archivos.
 
